@@ -1,0 +1,92 @@
+ul li,ol li{
+    list-style: none;
+
+}
+ul,ol{
+    padding-inline-start: 0;
+}
+
+.resume{
+    background-color:#333;
+    color:  teal;
+    margin: 30px 0;
+}
+.profile{
+    padding: 20px;
+}
+.avatar{
+    max-width: 200px;
+    height: auto;
+}
+.contacts{
+padding: 20px;
+background-color:#444;
+
+}
+.link{
+display: flex;
+margin-bottom: 7px;
+color: cyan;
+}
+.link:last-child{
+    margin-bottom: 0;
+    }
+.link i{
+ margin-right: 10px;
+
+    }
+.bi-whatsapp{
+        color: rgb(16, 160, 16);
+    }
+    
+.bi-telegram{
+    color: rgb(24, 128, 189);
+}
+.bi-twitter{
+    color:  rgb(24, 128, 189);
+}
+.bi-facebook{
+    color:  rgb(24, 128, 189);
+}
+#accordion .card-header{
+    border-radius: 0;
+background-color: transparent;
+}
+#accordion .card{
+    border-radius: 0;
+    background-color: transparent;
+}
+#accordion .btn:focus{
+box-shadow: none;
+}
+#accordion .btn{
+padding: .75rem 1.25rem;
+color: teal;
+width: 100%;
+text-align: left;
+    }
+.carousel-item img{
+    width: 200px;
+}
+.carousel-item-inner {
+display: flex;
+justify-content: center;
+}
+
+.card-header{
+    padding: 0;
+}
+.hobbies{
+    padding: 20px 0;
+}
+.carousel-item img.planting{
+    height: 433px;
+width: auto;
+max-width: 100%;
+}
+.skills-list li{
+list-style: disc;
+}
+.skills-list {
+    padding-inline-start: 10px;
+    }
