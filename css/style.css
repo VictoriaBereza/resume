@@ -80,7 +80,7 @@ justify-content: center;
     padding: 20px 0;
 }
 .carousel-item img.planting{
-    height: 433px;
+height: 433px;
 width: auto;
 max-width: 100%;
 }
@@ -90,3 +90,8 @@ list-style: disc;
 .skills-list {
     padding-inline-start: 10px;
     }
+ @media screen and (max-width: 768px) {
+.carousel-item img.planting{
+    height: auto;
+}
+      }
