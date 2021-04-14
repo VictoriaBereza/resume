@@ -89,9 +89,14 @@ list-style: disc;
 }
 .skills-list {
     padding-inline-start: 10px;
-    }
+}
  @media screen and (max-width: 768px) {
 .carousel-item img.planting{
     height: auto;
 }
-      }
+    }
+.carousel-caption p{
+    color:teal;
+    background-color: rgb(248, 247, 247);
+border-radius: 5px;
+}
